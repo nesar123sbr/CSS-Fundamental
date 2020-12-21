@@ -1,0 +1,71 @@
+/* mendefinisikan berdasarkan tag htmlnya */
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../Assets/Fonts/Poppins-Regular.ttf")
+}
+body{
+    background-image: url("../Assets/image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+div{
+    background-color: red;
+}
+h1{
+
+}
+
+p{
+
+}
+
+
+/* mendefinisikan class menggunakan . */
+
+.header 2 p {
+
+}
+
+.header1 #judul, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: blue;
+    background-image: url("../Assets/image/bg.jpg");
+}
+/* mendefinisikan id, menggunakan # */
+
+
+#judul {
+
+}
+
+/* cara mendefinisikan font family */
+
+.container{
+    color: crimson;
+}
+
+.header1 #judul:hover{
+    color: darkmagenta;
+    cursor: pointer;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    background-color: khaki;
+}
+.header#judul {
+    flex: 1;
+}
+
+.header1 p {
+    flex: 1;
+}
